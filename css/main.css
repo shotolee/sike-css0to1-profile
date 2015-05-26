@@ -1,8 +1,16 @@
 body {
+	font-family:'Open Sans','helvetica',arial,sans-serif;
+	font-weight: 300;
+	color: #62686f;
 	background-image: url(http://uploads.striking.ly/page/images/backgrounds/bg5.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#333;
+	font-weight:300;
 }
 
 .container {
@@ -21,7 +29,6 @@ body {
 	margin-bottom:20px;
 	font-weight: 300;
 	font-size: 50px;
-	font-family: 'Open Sans', 'helvetica', arial, sans-serif;
 	color: white;
 	text-shadow: 0 1px rgba(0,0,0,0.3);
 }
@@ -34,4 +41,34 @@ body {
 	border: 3px solid white;
 	border-radius: 999px;
 	box-shadow: 0 0px 2px 1px rgba(0,0,0,0.2);
+}
+
+.main-nav{
+	padding: 0;
+	text-align: center;
+	background-color: #333;
+}
+
+.main-nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 15px 10px;
+
+}
+
+.main-nav ul li a{
+	color: #fff;
+	font-size: 0.9rem;
+	font-weight:300;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+	text-decoration:underline;
+}
+
+.info-section{
+	background-color: #fff;
+	margin-top: -20px;
 }
