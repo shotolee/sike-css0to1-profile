@@ -86,16 +86,15 @@ h1,h2,h3,h4,h5,h6{
 
 .clearfix:after{
 	content:"";
-	display:table;
+	display: block;
 	clear: both;
 }
 
 .whatido h2:after{
 	content:"";
-	display:table;
+	display:block;
 	clear: both;
 	margin: auto;
-	padding:3px;
 	width: 10%;
 	border-bottom: 3px solid black;
 }
@@ -106,7 +105,7 @@ h1,h2,h3,h4,h5,h6{
 
 .whatido__skill--code{
 	padding-top: 100px;
-	width:33.3%;
+	width:20%;
 	background-image:url(../img/skill-code.png);
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -122,7 +121,7 @@ h1,h2,h3,h4,h5,h6{
 
 .whatido__skill--product{
 	padding-top: 100px;
-	width: 33.3%;
+	width:20%;
 	background-image:url(../img/skill-product.png);
 	background-repeat: no-repeat;
 	background-position: center top;
