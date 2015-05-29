@@ -136,7 +136,7 @@ ul{
 	background-position: center top;
 }
 
-ul.whatido__skill-list{
+.whatido__skill-list ul{
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -146,11 +146,6 @@ ul.whatido__skill-list{
 	display: block;
 }
 
-.list {
-	clear: both;
-	margin-bottom: 30px;
-	width: 100%;
-}
 .education-experience__list img{
 	float: left;
 	margin-right: 30px;
@@ -160,10 +155,75 @@ ul.whatido__skill-list{
 .content{
 	overflow: hidden;
 	text-align: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-.photos__list img{
+.photos__list li img{
 	float: left;
 	padding: 10px;
 	width: 25%;
+}
+
+.get-in-touch__list li{
+	float: left;
+	padding: 10px;
+	width: 25%;
+}
+
+.contact input,
+.contact textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact button {
+  border: none;
+  border-radius: 9999px;
+
+  background: #ffd524;
+
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  color: #fff;
+  box-shadow: 0 3px 0 #daae1d;
+}
+
+
+.contact form{
+	position: relative;
+	margin: 0 auto;
+	top: 0;
+	width: 40%;
+	padding: 8px;
+}
+
+
+.contact label{
+	position: absolute;
+	padding: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	left: -350px;
+	width: 100%;
+	text-align: right;
+}
+
+.contact input{
+	padding: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+.contact textarea{
+	padding: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+.contact button{
+	padding: 8px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	width: 100%;
 }
